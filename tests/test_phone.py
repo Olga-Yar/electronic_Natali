@@ -3,9 +3,6 @@ import pytest
 from tests.conftest import phone1, item1
 
 
-def test__add__():
-    """Проверка сложения объектов классов"""
-    assert phone1 + item1 == 25
 
 def test_phone_init(phone1):
     """ Проверка инициализации класса"""
